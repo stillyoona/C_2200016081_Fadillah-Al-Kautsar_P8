@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/stillyoona/C_2200016081_Fadillah-Al-Kautsar_P8/blob/main/node-cd-cd/Jenkinsfile'
+                git branch: 'main', url: 'https://github.com/stillyoona/C_2200016081_Fadillah-Al-Kautsar_P8.git'
             }
         }
         stage('Install Dependencies') {
